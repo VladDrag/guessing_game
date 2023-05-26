@@ -16,7 +16,7 @@ fn main() {
             .expect("Failed to read line");
 
         let guess = guess
-            .trim_end()
+            .trim()
             .parse::<i32>()
             .expect("Code broken at line 22 in main.rs.");
 

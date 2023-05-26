@@ -31,11 +31,11 @@ fn main() {
             }
             Ordering::Less => {
                 println!("Too small!");
-                println!("You have {} guesses left!", 7 - i)
+                println!("You have {} guesses left!", 8 - i - 1)
             }
             Ordering::Greater => {
                 println!("Too big!");
-                println!("You have {} guesses left!", 7 - i)
+                println!("You have {} guesses left!", 8 - i - 1)
             }
         }
     }
